@@ -1,0 +1,37 @@
+.navigation
+{
+    background: rgb(44, 168, 206);
+    padding: 5px;
+}
+
+.navigation__list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navigation__dropdown
+{
+    outline: none;
+    width: 100%;
+}
+
+.navigation__item
+{
+    margin: 5px 10px;
+    padding:  7px 5px; 
+    min-width: 150px;
+    background: white;
+    border-radius: 5px;
+}
+
+.navigation__item > *
+{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+

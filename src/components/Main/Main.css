@@ -1,0 +1,23 @@
+.main {
+  border: 2px solid grey;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: min-content;
+  grid-auto-flow: row dense;
+  justify-content: space-around;
+  grid-gap: 20px;
+  max-width: 1200px;
+  
+  margin: auto;
+}
+
+.notFound {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+  font-size: large;
+  color: rgb(240, 34, 34);
+}
+
+

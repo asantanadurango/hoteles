@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+    <title>Global Travel</title>
+    <script src="https://kit.fontawesome.com/3f3b06e948.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <div id="app"></div>
+
+    <!-- DATA -->
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd" src="./src/info/data.js"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd" src="./src/info/infoFilters.js"></script>
+
+
+    <!-- COMPONENTS -->
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd"
+        src="./src/components/CardHotel/CardHotel.jsx"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd"
+        src="./src/components/ItemNav/ItemNav.jsx"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd"
+        src="./src/components/Header/Header.jsx"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd" src="./src/components/Nav/Nav.jsx"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd" src="./src/components/Main/Main.jsx"></script>
+
+    <!-- OUTPUT -->
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd"
+        src="./src/components/MainComponent.jsx"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd" src="./src/App.js"></script>
+    <script type="text/babel" data-plugins="transform-es2015-modules-umd" src="./src/index.js"></script>
+
+
+</body>
+
+</html>

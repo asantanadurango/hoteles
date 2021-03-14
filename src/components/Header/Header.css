@@ -1,0 +1,11 @@
+.header
+{
+min-height: 15vh;
+background: aqua;
+padding-left: 30px;
+}
+
+.title
+{
+padding: 10px 0;
+}

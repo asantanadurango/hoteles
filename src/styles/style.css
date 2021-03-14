@@ -1,0 +1,5 @@
+@import './App.css';
+@import '../components/CardHotel/CardHotel.css';
+@import '../components/Header/Header.css';
+@import '../components/Main/Main.css';
+@import '../components/Nav/Nav.css';
